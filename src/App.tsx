@@ -20,16 +20,22 @@ function App() {
           <h6>Ip Address</h6>
           <h3>192.212.174.101</h3>
         </div>
+
+        <div className={styles.divider}></div>
         
         <div className={styles.info__card}>
           <h6>Location</h6>
           <h3>Brooklyn, NY 10001</h3>
         </div>
 
+        <div className={styles.divider}></div>
+
         <div className={styles.info__card}>
           <h6>Timezone</h6>
           <h3>UTC -05:00</h3>
         </div>
+
+        <div className={styles.divider}></div>
 
         <div className={styles.info__card}>
           <h6>Isp</h6>

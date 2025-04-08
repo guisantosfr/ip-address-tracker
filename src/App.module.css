@@ -20,7 +20,7 @@
     border: none;
     border-radius: 15px 0 0 15px;
     width: 80%;
-    max-width: 300px;
+    max-width: 400px;
     font-size: 1rem;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     outline: none;
@@ -42,6 +42,7 @@
 .info {
     background: #fff;
     width: 85%;
+    max-width: 350px;
     margin: 0 auto;
     border-radius: 20px;
     padding: 1.5em;
@@ -63,4 +64,38 @@
 
 .info__card h3 {
     font-weight: 500;
+}
+
+.divider{
+    display: none;
+}
+
+@media(min-width: 1000px){
+    .header {
+        background: url('../images/pattern-bg-desktop.png') no-repeat center center/cover;
+        height: 250px;
+    }
+
+    .header__title{
+        padding: 1.5em 0 1em 0;
+    }
+
+    .info{
+        display: flex;
+        justify-content: space-evenly;
+        max-width: 1000px;
+        top: 40px;
+    }
+
+    .info__card{
+        text-align: left;
+    }
+
+    .divider{
+        display: block;
+        border-right: 1px solid var(--dark-gray);
+        height: 50px;
+        opacity: .5;
+    }
+
 }
